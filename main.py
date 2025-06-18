@@ -8,7 +8,7 @@ def guess_the_number():
     guessed_number = random.randint(lower_bound, upper_bound)
     max_attempts = 7
 
-    # input section
+    # welcome section
     print(f"Вітаю! Я загадав число від {lower_bound} до {upper_bound}. Спробуй вгадати його за {max_attempts} спроб.")
 
     # cycle section
